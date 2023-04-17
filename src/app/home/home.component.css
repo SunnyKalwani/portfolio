@@ -17,7 +17,8 @@ background-size: cover;
 }
 
 #full{
-    color: red;
+    color: darkgreen;
+    text-decoration: underline;
 }
 
 
@@ -55,13 +56,39 @@ p{
 
 #resume{
     border-radius: 30%;
-    background-color: #005672;
+    background-color: black;
     margin-right: 50px;
     color: white;
     font-family: 'Press Start 2P';
-    font-size: 10px;
+    font-size: 7px;
     letter-spacing: 1px;
+    margin-left: 30px;
+}
 
+#resume:hover{
+    border-radius: 30%;
+    background-color: #E67703;
+    margin-right: 50px;
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 7px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
+
+#resume1{
+    border-radius: 30%;
+    background-color: #E67703;
+    margin-right: 50px;
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 7px;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
+
+#resume1:hover{
+    background-color: black;
 }
 
 #ln{
@@ -75,7 +102,7 @@ p{
 
 #aboutMe{
     margin-top: 15vh;
-    /* background-color: white; */
+    /* background-color: white;git init */
     border-radius: 25px;
     box-shadow: 20px 20px 20px E5833C;
     height: 500px;

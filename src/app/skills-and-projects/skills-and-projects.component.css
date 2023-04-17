@@ -1,8 +1,14 @@
 
 #skills {
-    background-color: #185571;
-    width: 100%;
-    height: 100%;
+    /* background-color: #185571; */
+    background-image: url(https://cdn.pixabay.com/photo/2017/05/09/10/59/mount-fuji-2297961__340.jpg);
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    /* background-position: left; */
+    background-size: cover;
+        width: 100%;
+        height: 100vh;
+        margin-top: -20px;
 }
 
 #skillsBar {
@@ -11,12 +17,12 @@
     border-radius: 10px;
     height: 40vh;
     box-shadow: 10px 10px 5px black;
-
-
 }
 
 #skillsBar:hover{
-    animation: 3s linear 0s infinite running mySlide;
+    /* animation: 3s linear 0s infinite running mySlide; */
+    background-color: rgba(0, 0, 0, 0.0);
+   box-shadow: none;
 }
 
 
@@ -24,14 +30,14 @@
     background-color: green;
     width: 85%;
     text-align: right;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 
 #bepercentage {
     background-color: green;
     width: 80%;
     text-align: right;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 
 }
 
@@ -39,7 +45,7 @@
     background-color: green;
     width: 70%;
     text-align: right;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 
 
 }
@@ -48,7 +54,7 @@
     font-family: 'Delicious Handrawn';
     font-size: 25px;
     letter-spacing: 2px;
-
+    margin-bottom: 0px;
 }
 
 #skillCards {
@@ -56,7 +62,6 @@
     width: 50%;
     border-radius: 10px;
     height: 100%;
-    
     margin: 20px;
     text-align: center;
     box-shadow: 10px 10px 5px black;
@@ -112,7 +117,8 @@ img {
     margin-top: 30px;
     margin-bottom: 50px;
     font-family: 'Press Start 2P';
-    font-size: 50px;
+    font-size: 25px;
+    text-decoration: underline;
 
 }
 
@@ -131,5 +137,6 @@ img {
 
 @keyframes mySlide {
     
-    70%{transform: scale(1.2,1.1);}
+    100%{transform: scale(0.7,0.7);}
+    00%{transform: scale(0.7,0.7);}
 }
