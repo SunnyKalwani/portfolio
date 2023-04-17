@@ -1,0 +1,58 @@
+#contact{
+    background:linear-gradient( to top, #185571, white);
+
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+#contactForm{
+    width: 50%;
+    margin-left: 25%;
+    border: 2px solid black;
+    border-radius: 10px;
+    background:linear-gradient(#185571, white);
+
+    box-shadow: 10px 10px 10px black;
+}
+
+form{
+    margin: 50px;
+    height: 70vh;
+}
+
+#name,#email,#desc,#submit{
+    margin-bottom: 20px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Press Start 2P';
+
+
+}
+
+#desclabel{
+    margin-bottom: 20px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Press Start 2P';
+    height: 200px;
+
+}
+
+#submit{
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #185571;
+    margin-top: 50px;
+    color: white;
+    
+}
+
+#submit:hover{
+    background-color: aliceblue;
+    color: black;
+    width: 200px;
+    height: 100px;
+}

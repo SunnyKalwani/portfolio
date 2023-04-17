@@ -1,0 +1,135 @@
+
+#skills {
+    background-color: #185571;
+    width: 100%;
+    height: 100%;
+}
+
+#skillsBar {
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    height: 40vh;
+    box-shadow: 10px 10px 5px black;
+
+
+}
+
+#skillsBar:hover{
+    animation: 3s linear 0s infinite running mySlide;
+}
+
+
+#fepercentage {
+    background-color: green;
+    width: 85%;
+    text-align: right;
+    margin-bottom: 5px;
+}
+
+#bepercentage {
+    background-color: green;
+    width: 80%;
+    text-align: right;
+    margin-bottom: 5px;
+
+}
+
+#pmpercentage {
+    background-color: green;
+    width: 70%;
+    text-align: right;
+    margin-bottom: 5px;
+
+
+}
+
+#skillslabel {
+    font-family: 'Delicious Handrawn';
+    font-size: 25px;
+    letter-spacing: 2px;
+
+}
+
+#skillCards {
+    background-color: white;
+    width: 50%;
+    border-radius: 10px;
+    height: 100%;
+    
+    margin: 20px;
+    text-align: center;
+    box-shadow: 10px 10px 5px black;
+}
+
+#skillCards:hover{
+    animation: 3s linear 0s infinite running mySlide;
+
+}
+
+#projectss {
+    border-radius: 10px;
+    height: 100%;
+    margin-top: 20px;
+    margin: 10px;
+    text-align: center;
+    margin-left: 10px;
+
+
+}
+
+h5 {
+    font-size: 30px;
+    font-family: 'Press Start 2P';
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#project {
+    margin: 10px;
+    height: 100%;
+    box-shadow: 10px 10px 5px black;
+}
+
+#project:hover{
+    animation: 3s linear 0s infinite running mySlide;
+
+}
+
+img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+
+#skillshead {
+    margin-top: 20px;
+    text-decoration: underline;
+    font-family: 'Press Start 2P';
+}
+
+#skillsCardhead {
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-family: 'Press Start 2P';
+    font-size: 50px;
+
+}
+
+.card-text {
+    font-family: 'Delicious Handrawn';
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+#bg {
+    background-color: grey;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+
+@keyframes mySlide {
+    
+    70%{transform: scale(1.2,1.1);}
+}

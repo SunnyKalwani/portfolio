@@ -1,0 +1,17 @@
+.active{
+    background-color: black;
+    border-radius: 10px;
+}
+
+#navbar{
+    background-color: #185571;
+    font-family: 'Delicious Handrawn';
+    font-size: larger;
+    letter-spacing: 4px;
+
+}
+.navbar-brand{
+    font-family: 'Press Start 2P';
+    margin-right: 100px;
+  
+}
