@@ -1,8 +1,25 @@
-<div class="container-fluid" id="contact">
+<!-- Everthing container -->
+<div class="container-fluid row" id="main">
+
+  <!-- A little bit about me -->
+  <div class="container-fluid col" id="aboutMe">
+    <img src="assets/profile.jpg" class="card-img-top" id="imagee"> 
+    <div class="card-body">
+      <h5 class="card-title">Hi!</h5> <br>
+      <p class="card-text">I'm <span> Sunny Kalwani</span>, an engineer and a web development enthusiast. I love building UI/UX
+        frientdly websites and solving complex coding problems.</p> <br>
+      <p>
+        Got a problem for me? Say HI! by filling out the form on the right  </p>
+        <i class="fa-solid fa-arrow-right fa-bounce"></i>
+    </div>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="container-fluid col" id="contact">
     <div id="contactForm">
-    <form >
+      <form>
         <div class="mb-3">
-          <label id="name" class="form-label" >Name:</label>
+          <label id="name" class="form-label">Name:</label>
           <input type="text" class="form-control" id="name" placeholder="Please enter your name...">
         </div>
         <div class="mb-3">
@@ -10,11 +27,14 @@
           <input type="email" class="form-control" id="email" placeholder="Please enter your email...">
         </div>
         <div class="mb-3">
-            <label id="desc" class="form-label">Breif Description:</label>
-            <textarea type="text" class="form-control" id="desclabel"placeholder="Please enter a breif description..." ></textarea>
-          </div>
-       
+          <label id="desc" class="form-label">Breif Description:</label>
+          <textarea type="text" class="form-control" id="desclabel"
+            placeholder="Please enter a breif description..."></textarea>
+        </div>
+
         <button id="submit" class="btn">Submit</button>
       </form>
     </div>
+  </div>
+
 </div>
