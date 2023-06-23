@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class SkillsAndProjectsComponent {
 
-  fronttitle = "<Front-End Skills>"
-  backtitle = "<Back-End Skills>"
+  designer = "<Designer>"
+  frontEnd = "<Front-End Developer>"
+  backEnd = "<Back-End Developer>"
 }

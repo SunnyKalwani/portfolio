@@ -2,7 +2,6 @@
     background-color: black;
     border-radius: 10px;
 }
-
 #navbar{
     background-color: #185571;
     font-family: 'Delicious Handrawn';
@@ -12,10 +11,11 @@
 }
 .navbar-brand{
     font-family: 'Press Start 2P';
-    margin-right: 100px;
-  
 }
-
 .btn{
     color:white;
+}
+
+footer{
+    background-color: #185571;
 }

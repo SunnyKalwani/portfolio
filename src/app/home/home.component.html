@@ -1,24 +1,28 @@
 <!-- Home Component -->
-<div class="container-fluid" id="homepage">
+<div class="container-fluid p-5" id="homepage">
+
+
     <!-- Div -1 -> Content about Me -->
-    <div class="row container-fluid" >
-        <div class="col-8 " id="aboutMe">
-            <p  id="head"> <span class="hi"> Hi! </span> I'm Sunny,</p>
+    <div class="d-md-flex mb-5 bg-light rounded shadow justify-content-between align-items-center  py-5 container" >
+        <div class="p-2 " id="aboutMe">
+            <h1  class="display-6 ms-5"> <span style="font-size: 80px; color: #185571;font-family: 'Press Start 2P';"> Hi! </span> I'm Sunny,</h1>
             <br>
-            <p id="para">
-                A <span id="full"> Full Stack Web Developer</span> passionate about creating interactive applications and making the digital world a
+            <p class="display-6 p-2 my-2">
+                A <span id="full" > Full Stack Web Developer</span> passionate about creating interactive web applications and making the digital world a
                 better place. 
             </p>
             <br>
-            <div id="button">
-                <button class="btn" id="resume"> Resume </button>
-                <button class="btn" id="resume1"> Skills and Projects </button>
-                <button class="btn" id="resume"> Contact Me </button> 
+            <div class="row py-5">
+                <button class="btn col m-2" id="resume"> Resume </button>
+                <a class="btn col nav-link m-2" id="resume" routerLink="/skills-and-projects" routerLinkActive="active"> Skills and Projects </a>
+                <button class="btn nav-link col m-2" id="resume" routerLink="/contact" routerLinkActive="active" > Contact Me </button> 
             </div>
         </div>
+
+
         <!-- Div-2 -> My image -->
-        <div class="col-4 ">
-            <img src="assets/profile.jpg" id="profile_image">
+        <div class="p-2 ">
+            <img src="assets/profile.jpg" class="d-none d-md-block rounded-circle mb-5 shadow border border-dark">
         </div>
     </div>
 </div>

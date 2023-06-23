@@ -1,39 +1,99 @@
-<div id="skills" class="container-fluid">
+<div id="skills" class="container-fluid ">
+
+    <!-- Intro -->
+    <div class="container-fluid p-2 text-center text-light" id="skillshead">
+        <h1 class="mx-3 m-5"> Some fun facts about me:</h1><br>
+        <p class="mb-5 mx-3 display-6" id="design"> In the realm of bits and pixels, a web developer named <span
+                class="text-danger display-4" style="font-weight: bolder;"> Sunny </span>weilded his coding prowess
+            like a digital soccerrer. With each line of code, he conjured captivating websites, merging design and
+            functionality seamlessly. His creations sparked awe, leaving users spellbound in the enchanting world he
+            created</p>
+    </div>
+
     <!-- Skills bar-->
-    <div id="skillsBar" class="container-fluid">
-        <h2 id="skillshead">Skills</h2><br>
-        <p id="skillslabel">Front End Skills:</p>
-        <div id="bg">
-            <div id="fepercentage"> 85%</div>
-        </div>
-        <p id="skillslabel">Back End Skills:</p>
-        <div id="bg">
-            <div id="bepercentage"> 80%</div>
-        </div>
-        <p id="skillslabel">Project Management Skills:</p>
-        <div id="bg">
-            <div id="pmpercentage"> 70%</div>
+    <div class="container rounded text-center">
+
+        <!--  skills cards -->
+        <div class="row gap-1 ">
+
+            <!-- Card for designing skills -->
+            <div class="card col-md my-2" id="skillCards">
+                <div class="card-body">
+                    <h4 class="card-title my-5" id="skillsCardhead">
+                        {{designer}}</h4>
+                    <p style="font-size: 20px;">I value simple User-centric design, clean content structure, and
+                        thoughtful interactions</p>
+                    <ul class="m-2 my-5 list-group list-group-flush">
+                        <li class="list-group-item" style="font-size: 20px;  color: red;">Things I enjoy Designing:</li>
+                        <li class="list-group-item">UX, UI, Web, Apps, Logos</li>
+                    </ul>
+                    <ul class="m-2 my-5 list-group list-group-flush">
+                        <li class="list-group-item" style="font-size: 20px; color: red;">Tools I use for Designing:</li>
+                        <li class="list-group-item">Figma</li>
+                        <li class="list-group-item">Pen and Paper</li>
+                        <li class="list-group-item">Font Awesome</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card for frontend skills -->
+            <div class="card col-md my-2" id="skillCards">
+                <div class="card-body">
+                    <h4 class="card-title my-5" id="skillsCardhead"><i class="fa-duotone fa-window"></i> {{frontEnd}}
+                    </h4>
+                    <p style="font-size: 20px; ">I like to write code from scratch, and enjoy bringing ideas to life in
+                        the browser</p>
+                    <ul class="m-2 my-5 list-group list-group-flush">
+                        <li class="list-group-item " style="font-size: 20px;  color: red;">Front end Languages I speak:
+                        </li>
+                        <li class="list-group-item">HTML, CSS, Sass, JavaScript, GIT</li>
+                    </ul>
+                    <ul class="m-2 my-5 list-group list-group-flush">
+                        <li class="list-group-item" style="font-size: 20px;  color: red;">Development Tools:</li>
+                        <li class="list-group-item">Angular</li>
+                        <li class="list-group-item">Ionic</li>
+                        <li class="list-group-item">Bootstrap</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Card for backend skills -->
+            <div class="card col-md my-2" id="skillCards">
+                <div class="card-body">
+                    <h4 class="card-title my-5" id="skillsCardhead"><i
+                            class="fa-duotone fa-gear-complex-code fa-beat"></i> {{backEnd}}</h4>
+                    <p style="font-size: 20px;">I Love creating server-side logic and Infrastructure that powers
+                        websites and web applications
+                    </p>
+                    <ul class="m-2 my-5 list-group list-group-flush">
+                        <li class="list-group-item" style="font-size: 20px;  color: red;"> Tools for testing: </li>
+                        <li class="list-group-item">Postman, Chrome Dev Tools</li>
+                    </ul>
+                    <ul class="m-2 my-5 list-group list-group-flush">
+                        <li class="list-group-item" style="font-size: 20px;  color: red;">Development Tools:</li>
+                        <li class="list-group-item">MySQL</li>
+                        <li class="list-group-item">MariaDB</li>
+                        <li class="list-group-item">Npm</li>
+                        <li class="list-group-item">Node.js</li>
+                        <li class="list-group-item">Express.js</li>
+                    </ul>
+                </div>
+            </div>
         </div>
 
 
     </div>
-    <!--  skills cards -->
-    <div class="row">
-        <div routerLink='/projects' class="card col" id="skillCards">
-            <div class="card-body">
-                <h5 class="card-title" id="skillsCardhead">{{fronttitle}}</h5>
-                <p class="card-text">CSS</p>
-                <p class="card-text">HTML</p>
-                <p class="card-text">BootStrap</p>
-            </div>
-        </div>
-        <div routerLink='/projects'  class="card col" id="skillCards">
-            <div class="card-body">
-                <h5 class="card-title" id="skillsCardhead">{{backtitle}}</h5>
-                <p class="card-text">NodeJs</p>
-                <p class="card-text">MariaDB</p>
-                <p class="card-text">Express</p>
-            </div>
-        </div>
 
+    <!-- Projects -->
+    <div class="container-fluid p-2 text-center text-light mb-5" id="skillshead">
+        <h1 class="mx-3 m-5"> Lets Check out some Projects:</h1><br>
+        <p class="mb-5 mx-3 display-6" > My Web Development projects aim to create a <span
+                class="text-danger display-4" style="font-weight: bolder;">Responsive and Visually Captivating
+                websites</span> that seamlessly integrates user-friendly navigation, dynamic content, and robust
+            functionality to deliver exceptioal online experience.
+        </p>
+        <button class="btn col m-2 mb-5 shadow" routerLink ="/projects" id="resume"> Click to Checkout Projects </button>
     </div>
+
+
+</div>

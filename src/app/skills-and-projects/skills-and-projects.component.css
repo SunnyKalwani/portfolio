@@ -1,9 +1,59 @@
-#skills {
-    /* background-color: #185571; */
+#skills::before{
+    display: block;
+    content: "";
+    height: 100px;
+}
+
+#skills{
+    background-image: url(https://cdn.pixabay.com/photo/2017/05/09/10/59/mount-fuji-2297961__340.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+#skillshead{
+    background-color: #185571;
+}
+
+#design{
+    padding-bottom: 200px;
+}
+
+.row{
+    margin-top: -10rem;
+}
+
+h1{
+    font-size: 30px;
+    font-family: 'Press Start 2P';
+}
+
+h4{
+    font-size: 20px;
+    font-family: 'Press Start 2P';
+}
+
+#resume{
+    background-color: rgba(0, 0, 0, .4);
+    margin: 5px;
+    color: white;
+    font-family: 'Press Start 2P';
+    font-size: 20px;
+}
+
+#resume:hover{
+    color: black;
+    background-color: white;
+    font-family: 'Press Start 2P';
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+
+
+/* #skills {
     background-image: url(https://cdn.pixabay.com/photo/2017/05/09/10/59/mount-fuji-2297961__340.jpg);
     background-repeat: no-repeat;
     padding-top: 10px;
-    /* background-position: left; */
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -11,11 +61,6 @@
 }
 
 #skillsBar {
-    /* background-color: white;
-    width: 50%;
-    border-radius: 10px;
-    height: 40vh;
-    box-shadow: 10px 10px 5px black; */
 
     background-color: rgba(0, 0, 0, 0.0);
     box-shadow: none;
@@ -25,10 +70,7 @@
 }
 
 #skillsBar:hover {
-    /* animation: 3s linear 0s infinite running mySlide; */
-    /* background-color: rgba(0, 0, 0, 0.0);
-   box-shadow: none;
-} */
+   
     background-color: white;
 
     box-shadow: 10px 10px 5px black;
@@ -38,14 +80,12 @@
     background-color: green;
     width: 85%;
     text-align: right;
-    /* margin-bottom: 5px; */
 }
 
 #bepercentage {
     background-color: green;
     width: 80%;
     text-align: right;
-    /* margin-bottom: 5px; */
 
 }
 
@@ -53,7 +93,6 @@
     background-color: green;
     width: 70%;
     text-align: right;
-    /* margin-bottom: 5px; */
 
 
 }
@@ -76,7 +115,6 @@
     height: 40vh;
     border: none;
 
-    /* animation: 3s linear 0s infinite running mySlide; */
 }
 
 #skillCards:hover {
@@ -160,4 +198,4 @@ img {
         transform: scale(1.1, 1.1);
     }
 
-}
+} */
