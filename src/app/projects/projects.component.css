@@ -21,7 +21,7 @@ h1{
 }
 
 #resume{
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(24, 85, 113, 1);
     margin: 5px;
     color: white;
     font-family: 'Press Start 2P';
@@ -36,6 +36,9 @@ h1{
     font-size: 25px;
 }
 
+img{
+    max-height: 250px;
+}
 /*
 #skillCards {
     background-color: white;
