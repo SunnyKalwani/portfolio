@@ -8,6 +8,7 @@
     background-image: url(https://cdn.pixabay.com/photo/2017/05/09/10/59/mount-fuji-2297961__340.jpg);
     background-repeat: no-repeat;
     background-size:100% 100%;
+    background-attachment: fixed;
 }
 
 #skillshead{
@@ -16,6 +17,7 @@
 
 #design{
     padding-bottom: 200px;
+    font-size: 25px;
 }
 
 .row{
