@@ -44,6 +44,10 @@ p{
     font-size: 25px;
 }
 
+.card{
+    min-height: 610px;
+}
+
 /*
 
 span{
