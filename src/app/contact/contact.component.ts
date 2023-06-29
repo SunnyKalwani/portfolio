@@ -9,19 +9,11 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 })
 export class ContactComponent {
 
-  contactForm: FormGroup;
 
-  constructor(private formBuilder: FormBuilder){
+  constructor(){
 
-    this.contactForm = formBuilder.group({
-      name: ["", [Validators.required]]
-    });
   }
 
-  onSubmit(){
-    let formData = this.contactForm.value;
 
-    console.log(formData);
-  }
 
 }

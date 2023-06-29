@@ -1,0 +1,45 @@
+<form [formGroup]="formData" (ngSubmit)="onSubmit(formData.value)">
+
+  <!-- Name -->
+  <div class="mb-3">
+    <label class="form-label">Name:</label>
+    <input type="text" class="form-control" placeholder="Please enter your name..." formControlName="name">
+    <div *ngIf="nameFormControl.touched && nameFormControl.errors?.['required']" class="alert alert-danger"
+      role="alert">
+      Name field is required
+    </div>
+  </div>
+
+
+
+  <!-- Email -->
+  <div class="mb-3">
+    <label class="form-label">Email:</label>
+    <input type="text" class="form-control" placeholder="Please enter your email..." formControlName="email">
+    <div *ngIf="emailFormControl.dirty && emailFormControl.errors?.['email']" class="alert alert-danger" role="alert">
+      Please enter valid email address
+    </div>
+    <div *ngIf="emailFormControl.touched && emailFormControl.errors?.['required']" class="alert alert-danger"
+      role="alert">
+      Email field is required
+    </div>
+  </div>
+
+  <!-- Message -->
+  <div class="mb-3">
+    <label class="form-label">Message:</label>
+    <textarea type="text" class="form-control" placeholder="Please enter your message..."
+      formControlName="message"></textarea>
+    <div *ngIf="messageFormControl.dirty && messageFormControl.errors?.['minlength']" class="alert alert-danger" role="alert">
+      Message should be atleast 100 characters
+    </div>
+    <div *ngIf="messageFormControl.touched && messageFormControl.errors?.['required']" class="alert alert-danger"
+      role="alert">
+      Message field is required
+    </div>
+  </div>
+
+
+  <button id="submit" class="btn my-3" [disabled]="formData.invalid">Submit</button>
+
+</form>

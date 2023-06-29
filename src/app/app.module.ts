@@ -7,8 +7,11 @@ import { HomeComponent } from './home/home.component';
 import { SkillsAndProjectsComponent } from './skills-and-projects/skills-and-projects.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { ProjectsComponent } from './projects/projects.component';
-import {HttpClientModule} from '@angular/common/http'
-import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http'
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ContactFormComponent } from './contact-form/contact-form.component';
+import { ContactService } from './contact.service';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -18,15 +21,17 @@ import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
     SkillsAndProjectsComponent,
     NotfoundComponent,
     ProjectsComponent,
+    ContactFormComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule,
     FormsModule,
-    ReactiveFormsModule 
+    ReactiveFormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ContactService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
