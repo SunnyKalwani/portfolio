@@ -1,53 +1,52 @@
-#skills::before{
+#skills::before {
     display: block;
     content: "";
     height: 100px;
 }
 
-#skills{
+#skills {
     background-image: url(https://cdn.pixabay.com/photo/2017/05/09/10/59/mount-fuji-2297961__340.jpg);
     background-repeat: no-repeat;
-    background-size:100% 100%;
+    background-size: 100% 100%;
     background-attachment: fixed;
 }
 
-#skillshead{
+#skillshead {
     background-color: #185571;
 }
 
-#design{
+#design {
     padding-bottom: 200px;
     font-size: 25px;
 }
 
-.row{
-    margin-top: -10rem;
+.row {
+    margin-top: -12rem;
 }
 
-h1{
+h1 {
     font-size: 30px;
     font-family: 'Press Start 2P';
 }
 
-h4{
+h4 {
     font-size: 20px;
     font-family: 'Press Start 2P';
 }
 
-#resume{
+#resume {
     background-color: rgba(0, 0, 0, .4);
     margin: 5px;
     color: white;
-    font-family: 'Press Start 2P';
     font-size: 20px;
 }
 
-#resume:hover{
+#resume:hover {
     color: black;
     background-color: white;
-    font-family: 'Press Start 2P';
+    font-weight: bold;
     letter-spacing: 1px;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 

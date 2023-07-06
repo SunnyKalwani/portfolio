@@ -4,22 +4,26 @@
     height: 100px;
 }
 
+#project{
+    background-color: rgba(24, 85, 113, .5);
+    
+}
 
 
 #skillshead{
     background-color: #185571;
 }
 
+
 h1{
-    font-size: 30px;
-    font-family: 'Press Start 2P';
+    font-size: 25px;
+
 }
 
 #resume{
     background-color: rgba(24, 85, 113, 1);
     margin: 5px;
     color: white;
-    font-family: 'Press Start 2P';
     font-size: 20px;
     background-color: orange;
 }
