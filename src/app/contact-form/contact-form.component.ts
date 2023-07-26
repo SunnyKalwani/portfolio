@@ -21,14 +21,18 @@ export class ContactFormComponent {
 
   onSubmit(FormData: any) {
     console.log(FormData);
-    this.contact.postMessage(FormData)
-      .subscribe(response => {
-        location.href = 'https://mailthis.to/confirm'
-        console.log(response)
-      }, error => {
-        console.warn(error.responseText)
-        console.log({ error })
-      })
+
+    return alert(`Form Not Submitted. Please email admin@sunnykalwani.com`);
+
+    // Data to transmit message / Not functioning right now
+    // this.contact.postMessage(FormData)
+    //   .subscribe(response => {
+    //     location.href = 'https://mailthis.to/confirm'
+    //     console.log(response)
+    //   }, error => {
+    //     console.warn(error.responseText)
+    //     console.log({ error })
+    //   })
   }
 
   get nameFormControl(){
